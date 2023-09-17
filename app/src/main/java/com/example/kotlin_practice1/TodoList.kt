@@ -18,7 +18,7 @@ private const val ARG_PARAM2 = "param2"
  */
 class TodoList : Fragment(R.layout.fragment_todo_list) {
 
-
+    private lateinit var viewModel: TodoListViewModel
 
 
 

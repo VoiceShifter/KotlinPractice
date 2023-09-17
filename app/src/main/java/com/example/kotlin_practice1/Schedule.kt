@@ -14,6 +14,6 @@ private const val ARG_PARAM2 = "param2"
  */
 class Schedule : Fragment(R.layout.schedule) {
 
-
+    private lateinit var viewModel: ScheduleViewModel
 
 }

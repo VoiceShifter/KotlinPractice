@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
         val currentFragment = supportFragmentManager.fragments.last()
 
         if(currentFragment ==  FirstFragmentVariable)
-
         {
             supportFragmentManager.beginTransaction().apply {
                 replace(R.id.ContainerFragment, SecondFragmentVariable)
